@@ -1,0 +1,29 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Week 4 exercise 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisCasillasA/code_challenge.git"
+  },
+  "author": "LuisCasillasA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisCasillasA/code_challenge/issues"
+  },
+  "homepage": "https://github.com/LuisCasillasA/code_challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
