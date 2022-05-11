@@ -9,4 +9,8 @@ describe("Unit test for StrudentController", () =>{
         const emailStudents = StudentContoller.getEmailsCertifiedStudents();
         expect(emailStudents.length).toBe(29);
     });
+    test("3. Get all students with credits greater than 500", () =>{
+        const studentsGreater = StudentContoller.getStudentsCreditsGreater(500);
+        expect(studentsGreater.length).toBe(27);
+    });
 });
